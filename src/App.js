@@ -1,4 +1,4 @@
-import Button from './components/Button';
+import Button, { FancyButton } from './components/Button';
 import './App.css';
 
 function App() {
@@ -7,6 +7,9 @@ function App() {
       <Button>Default</Button>
       <Button primary>Primary</Button>
       <Button secondary>Secondary</Button>
+      <FancyButton>Default</FancyButton>
+      <FancyButton primary>Primary</FancyButton>
+      <FancyButton secondary>Secondary</FancyButton>
     </div>
   );
 }

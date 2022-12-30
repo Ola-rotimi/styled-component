@@ -4,7 +4,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Button>Click me</Button>
+      <Button>Default</Button>
+      <Button primary>Primary</Button>
+      <Button secondary>Secondary</Button>
     </div>
   );
 }
